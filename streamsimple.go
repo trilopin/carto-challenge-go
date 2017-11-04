@@ -48,7 +48,4 @@ func StreamSimple(URL string) {
 
 	fmt.Printf("\nTotal lines: %d", count)
 	fmt.Printf("\nAverage Tip amount %0.4f\n", sum/float64(count))
-	// Total lines: 10906858
-	// Average Tip amount 1.7507
-	// 40.78s user 31.88s system 4% cpu 26:18.64 total}
 }
