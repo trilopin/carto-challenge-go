@@ -21,21 +21,23 @@ That's it. Make it fly!
 
 No language wars is intended, I am only learning while playing.
 
-Compile it
+Get it
 ```
-go buld
+$ go get github.com/trilopin/carto-challenge-go
 ```
 
 Run tests
+
 ```
-dep ensure && go test
+$ cd GOPATH/src/github.com/trilopin/carto-challenge-go
+$ dep ensure && go test
 ```
 
 ### Simple stream
 
 It takes *12 minutes* (macbook pro (i5) and a 50MB Fiber network).
 ```
-$ ./carto-challenge stream_simple https://s3.amazonaws.com/carto-1000x/data/yellow_tripdata_2016-01.csv
+$ carto-challenge-go stream_simple https://s3.amazonaws.com/carto-1000x/data/yellow_tripdata_2016-01.csv
 
 Total lines: 10906858
 Average Tip amount 1.7507./carto-challenge stream_simple
