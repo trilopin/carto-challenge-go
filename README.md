@@ -33,6 +33,7 @@ dep ensure && go test
 
 ### Simple stream
 
+It takes *12 minutes* (macbook pro (i5) and a 50MB Fiber network).
 ```
 $ ./carto-challenge stream_simple https://s3.amazonaws.com/carto-1000x/data/yellow_tripdata_2016-01.csv
 
